@@ -20,8 +20,11 @@ class AppAsset extends AssetBundle
         'js/lib/underscore-min.js',
         'js/lib/backbone-min.js',
         /* js Application */
-        'js/routers/router.js',
-        'js/app.js',
+        'js/app/models/todo-model.js',
+        'js/app/collections/todo-collection.js',
+        'js/app/views/todo-collection-view.js',
+        'js/app/routers/router.js',
+        'js/app/app.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
