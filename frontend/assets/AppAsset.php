@@ -15,6 +15,13 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
+        /* js Library */
+        'js/lib/jquery-2.1.3.min.js',
+        'js/lib/underscore-min.js',
+        'js/lib/backbone-min.js',
+        /* js Application */
+        'js/routers/router.js',
+        'js/app.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
