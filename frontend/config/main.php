@@ -36,7 +36,8 @@ return [
                 'about'     => 'site/about',
                 'contact'   => 'site/contact',
                 'signup'    => 'site/signup',
-                'login'     => 'site/login'
+                'login'     => 'site/login',
+                'todo'      => 'site/todo',
             ],
         ],
     ],

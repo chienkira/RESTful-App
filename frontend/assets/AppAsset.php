@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle
         /* js Application */
         'js/app/models/todo-model.js',
         'js/app/collections/todo-collection.js',
+        'js/app/views/todo-item-view.js',
         'js/app/views/todo-collection-view.js',
         'js/app/routers/router.js',
         'js/app/app.js',

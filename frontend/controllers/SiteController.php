@@ -210,4 +210,14 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+    /**
+     * Todo List
+     *
+     * @return string
+     */
+    public function actionTodo()
+    {
+        return $this->render('todo');
+    }
 }
